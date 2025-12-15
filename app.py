@@ -111,6 +111,12 @@ def format_user_data(user_data: dict) -> str:
     return text
 
 
+@app.route("/", methods=["GET", "HEAD"])
+def home():
+    return {"status": "running"}
+
+
+
 # ---------------- API ROUTE ----------------
 @app.route("/ask", methods=["POST"])
 def ask():
