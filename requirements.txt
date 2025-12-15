@@ -23,3 +23,4 @@ pypdf
 langchain-text-splitters
 flask
 flask_cors
+langchain-mistralai
