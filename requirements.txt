@@ -22,3 +22,4 @@ python-dotenv
 pypdf
 langchain-text-splitters
 flask
+flask_cors
